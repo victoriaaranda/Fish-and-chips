@@ -5,8 +5,133 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>fish and chips Victoria</title>
 	<link rel="stylesheet" href="style.css">
+
+<style>
+		body{
+			max-width: 50rem;
+			margin: auto;
+		}
+
+		.color{
+			width: max-content;
+		}
+
+		.swatch{
+			width: 2.54cm;
+			aspect-ratio: 1;
+		}
+
+		.label{
+			font-family: monospace;
+			border-top: 1px solid #ccc;
+			padding-top: 0.5em;
+			margin-top: 0.5em;
+		}
+
+	</style>
+
+
+
 </head>
 <body>
-	<h1> Ceci est mon super porjet fish and chips qui tue smr</h1>
-</body>
+
+	<section id="Identite">
+
+		<article id="Logo">
+			<h2> Logo</h2>
+			<img src="Fichier 1.svg" alt="Logo fish and chips">
+		</article>
+
+		<article id="Application">
+			<h2>Application</h2>
+			<img src="foodtruck.jpg" alt="maquette de camon décorée">
+		</article>
+
+		<article id="Typographie">
+			<h2>font: IMB Plex Mono</h2>
+			
+<p style="font-size: var(--fontsize-XS   )"> Fish & Chips fontsize-XS   0.50rem / 8px.    The quick fox jumps over the lazy dog</p>
+<p style="font-size: var(--fontsize-S    )"> Fish & Chips fontsize-S    0.71rem / 11.32px The quick fox jumps over the lazy dog</p>
+<p style="font-size: var(--fontsize-M    )"> Fish & Chips fontsize-M    1.00rem / 16px.   The quick fox jumps over the lazy dog</p>
+<p style="font-size: var(--fontsize-L    )"> Fish & Chips fontsize-L    1.41rem / 22.62px The quick fox jumps over the lazy dog</p>
+<p style="font-size: var(--fontsize-XL   )"> Fish & Chips fontsize-XL   2.00rem / 31.99px The quick fox jumps over the lazy dog</p>
+<p style="font-size: var(--fontsize-XXL  )"> Fish & Chips fontsize-XXL  2.83rem / 45.23px The quick fox jumps over the lazy dog</p>
+<p style="font-size: var(--fontsize-XXXL )"> Fish & Chips fontsize-XXXL 4.00rem / 63.96px The quick fox jumps over the lazy dog</p>
+<p style="font-size: var(--fontsize-XXXXL)"> Fish & Chips fontsize-XXXXL5.65rem / 90.44px The quick fox jumps over the lazy dog</p>
+
+		</article>
+
+
+		<article id="web">
+			<h2>Maquette de site web</h2>
+
+			<div class="row">
+				<div>
+					<h3>Page d'acceuil</h3>
+					<img src="Home page.jpg" alt="maquette web mobile">
+				</div>
+				<div>
+					<h3>Menu</h3>
+					<img src="menu.jpg" alt="maquette web mobile">
+				</div>
+				<div>
+					<h3>Horaire</h3>
+					<img src="Home page.jpg" alt="maquette web mobile">
+				</div>
+				</div><!-- fin.row -->
+			
+			
+		</article>
+
+	</section>
+
+	<section id="CharteGraphique">
+
+		<article id="Couleur">
+			<h1>Couleur</h1>
+
+			<script src="swatches.js"></script>
+
+			<div class="color">
+				<h3>«Vert»</h3>
+				<div class="swatch" style="background: var(--couleurPrincipale)"></div>
+				<p class="label"data-color-format="hex"></p>
+				<p class="label"data-color-format="rgb"></p>
+				<p class="label"data-color-format="hsl"></p>
+				<p class="label"data-color-format="lab"></p>
+				<p class="label"data-color-format="cmyk"></p>
+				
+			</div>
+
+			<div class="color">
+				<h3>«Noir»</h3>
+				<div class="swatch" style="background: var(--couleurSecondaire)"></div>
+				<p class="label"data-color-format="hex"></p>
+				<p class="label"data-color-format="rgb"></p>
+				<p class="label"data-color-format="hsl"></p>
+				<p class="label"data-color-format="lab"></p>
+				<p class="label"data-color-format="cmyk"></p>
+			</div>
+
+			<div class="color">
+				<h3>mix</h3>
+				<div class="swatch" style="background: color-mix(in srgb, var(--couleurPrincipale), var(--couleurSecondaire) );"></div>
+				<p class="label" data-color-format="hex"></p>
+				<p class="label" data-color-format="rgb"></p>
+			</div>
+
+			<div class="color">
+				<h3>vert apple pay</h3>
+				<div class="swatch" style="background-color: hsl( from var(--couleurPrincipale)h s 50%);"></div>
+				<p class="label" data-color-format="hex"></p>
+				<p class="label" data-color-format="rgb"></p>
+			</div>
+
+		</article>
+	<!-- #Couleur -->
+
+	</section>
+	<!-- #CharteGraphique -->
+	</body>
 </html>
+
